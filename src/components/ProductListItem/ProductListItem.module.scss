@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    &Inner {
+        cursor: pointer;
+    }
+}
+
+.infobtn {
+    color: azure;
+    background-color: black;
+    display: block;
+    padding: 9px;
+    border-radius: 12px;
+    text-align: center;
+}

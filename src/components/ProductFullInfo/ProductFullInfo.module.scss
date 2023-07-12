@@ -1,0 +1,51 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    &Inner {
+        cursor: pointer;
+    }
+}
+
+.infobtn {
+    color: azure;
+    background-color: black;
+    display: block;
+}
+
+.wrapper {
+    margin: 28px 25px 85px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.innerwrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.cartwrapper {
+    display: flex;
+    gap: 18px;
+}
+
+.slider {
+    max-width: 70vw;
+    max-height: 400px;
+
+    img {
+        object-fit: contain;
+        max-width: 70vw;
+        max-height: 400px;
+    }
+}
+
+.back {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    color: #282c34;
+    font-weight: 700;
+    width: 90vw;
+}
